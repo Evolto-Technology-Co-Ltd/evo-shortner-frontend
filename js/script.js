@@ -1,7 +1,7 @@
 const buttonShortener = document.querySelector("#btn-shortener");
 buttonShortener.addEventListener("click", function () {
   const url = document.querySelector("#url");
-  fetch("https://evo-shortner.herokuapp.com/short", {
+  fetch("https://evo.st/short", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
